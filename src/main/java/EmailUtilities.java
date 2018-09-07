@@ -47,10 +47,7 @@ public class EmailUtilities {
     }    
     return session;
   } 
-
-  
-  
-  
+    
   /**
    * Utility method to send simple HTML email
    * 
@@ -89,6 +86,17 @@ public class EmailUtilities {
     return success;
   }
 
+  /**
+   * Send email with attachment, for attachment specify full path to file location
+   * 
+   * @param session
+   * @param fromEmail
+   * @param toEmail
+   * @param subject
+   * @param body
+   * @param fileNameAndPath
+   * @return
+   */
   public static boolean sendAttachmentEmail(Session session, String fromEmail, String toEmail, 
                                             String subject, String body, String fileNameAndPath) {
     boolean success = false;
