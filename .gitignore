@@ -1,0 +1,8 @@
+*.properties
+!emailExample.properties
+*.tar
+*.class
+.classpath
+.project
+.settings
+/target/
