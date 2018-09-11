@@ -21,7 +21,7 @@ import javax.mail.internet.MimeMultipart;
 public class EmailUtilities {
 
   /** 
-   * Most of the logic to get the session is common, moved it here
+   * Most of the logic to get the session is common, moved it here.
    */
   public static Session getSession(Properties emailProps, String overrideEmailPW) {
     Session session = null;
