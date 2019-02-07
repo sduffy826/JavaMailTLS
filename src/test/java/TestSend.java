@@ -1,16 +1,13 @@
-
 public class TestSend {
 
   public static void main(String[] args) {
-    System.out.println("In mainline");
+    System.out.println("In TestSend.main()");
     
-    //SendTextEmail.sendEmail("corti.properties", "", "media3@us.ibm.com", "Test Subject", "Body of email text :)");
+    // SendTextEmail.sendEmail("remi96hotmail.properties", "", "media3@us.ibm.com", "Test Subject", "Body of email text :)");
     
     System.out.println("After call to SendTextEmail.sendEmail");
     
-   SendEmailWithAttachment.sendEmail("corti.properties", "", "remi_96@hotmail.com", "Test Subject", "Body of email text :)",
-                            "c:\\cole_smaller.jpg");
-
+    SendEmailWithAttachment.sendEmail("remi96hotmail.properties", "", "media3@us.ibm.com", "Test Subject", "Body of email text :)",
+                                      "c:\\seanduff\\workspace\\test.txt");
   }
-
 }

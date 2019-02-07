@@ -1,0 +1,11 @@
+# Sample properties file for email
+#
+# The extensions on your properties should be .properties; this one is
+# different cause I want git to include it.
+#
+# The debugFlag property is used for mail.debug property and is optional here
+emailAddress=someUser@gmail.com
+emailPassword=password
+smtpHost=smtp.gmail.com
+smtpPort=587
+debugFlag=true
